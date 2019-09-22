@@ -33,8 +33,8 @@ Mu    = [0.1,0.08];  % the  rate to choose epsilon:
 % workable, resulting in low recall. So we need add some outliers manually 
 N      = size(X,1);
 NoiseN = round(min(0.05.*N,20));
-NoiseX = [X;rand(NoiseN,2).*max(X)];
-NoiseY = [Y;rand(NoiseN,2).*max(Y)];
+NoiseX = [X;rand(NoiseN,2).*repmat(max(X),[NoiseN,1])];
+NoiseY = [Y;rand(NoiseN,2).*repmat(max(Y),[NoiseN,1])];
 X = NoiseX; Y = NoiseY;
 
 %% Run DBSCAN Clustering Algorithm  
