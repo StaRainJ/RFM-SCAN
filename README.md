@@ -3,6 +3,7 @@
 
  
  
+![image](https://github.com/StaRainJ/RPM-SCAN/Screenshots/RFM-SCAN_results.png)
  
 # Please cite this paper if you use the code in this repository as part of a published research project.
 
