@@ -1,8 +1,8 @@
-%% Matlab code for RPM-SCAN
-% This is a demo for removing outliers. In this demo, the SIFT matches  is known in advance.
+%% Matlab code for RFM-SCAN
+% This is a demo for removing outliers. In this demo, the SIFT matches are known in advance.
 % Authors: Xingyu Jiang (jiangx.y@whu.edu.cn)
 % Date:    09/2019
-
+%%
 clear;  
 close all;  
 %% Load data
