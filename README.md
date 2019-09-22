@@ -1,4 +1,4 @@
-#  RPM-SCAN: Robust Feature Matching using Spatial Clustering Algorithm with Heavy Outliers (TIP2020)
+#  RPM-SCAN: Robust Feature Matching Using Spatial Clustering with Heavy Outliers (TIP2020)
  
 ## Please cite this paper if you use the code in this repository as part of a published research project.
 
